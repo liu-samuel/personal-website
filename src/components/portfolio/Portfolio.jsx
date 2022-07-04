@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -8,6 +9,24 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='portfolio_container'>
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'></div>
+          <h3>This is a portfolio item title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'></div>
+          <h3>This is a portfolio item title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+        </article>
+
+        <article className='portfolio_item'>
+          <div className='portfolio_item-image'></div>
+          <h3>This is a portfolio item title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+        </article>
+
         <article className='portfolio_item'>
           <div className='portfolio_item-image'></div>
           <h3>This is a portfolio item title</h3>
