@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    /* delete this after fixed */
-    margin-top: 20rem;
 }
 
 .experience_container > div {
